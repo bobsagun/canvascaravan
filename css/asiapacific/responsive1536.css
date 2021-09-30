@@ -35,6 +35,11 @@
     font: normal normal normal 12px/15px 'Proxima Nova Bold';
     height: 43px;
     line-height: 43px;
+    display: flex;
+    align-items: center;
+  }
+  .btn--red::after {
+    margin-bottom: -5px;
   }
   .notification__circle2 {
     transform: translate(349px, 30px);
@@ -193,6 +198,10 @@
   .section__limited__text {
     font: normal normal normal 28px/36px 'Tiempos Headline Bold';
     margin-bottom: 24px;
+  }
+  .section__mission {
+    width: 315px;
+    padding-bottom: 90px;
   }
   .section__missionTitle {
     font: normal normal normal 28px/36px 'Tiempos Headline Bold';

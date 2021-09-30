@@ -5,4 +5,231 @@
   .navbar__brand {
     font: normal normal normal 38px/60px 'Tiempos Headline Bold';
   }
+  .notification {
+    transform: translate(-112px, -232px);
+    width: 1120px;
+    height: 1120px;
+  }
+  .notification__circle1 {
+    width: 628px;
+    height: 628px;
+    padding: 79px 129px 63px 125px;
+    margin-top: -19px;
+  }
+  .notification__title {
+    font: normal normal normal 36px/42px 'Tiempos Headline Bold';
+  }
+  .notification__subtitle {
+    font: normal normal normal 28px/36px 'Proxima Nova';
+  }
+  .notification__time {
+    font: normal normal normal 18px/32px 'Proxima Nova Bold';
+  }
+  .notification__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .btn--red {
+    padding-right: 21px;
+    padding-left: 21px;
+    border-radius: 20px;
+    font: normal normal normal 12px/15px 'Proxima Nova Bold';
+    height: 43px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+  }
+  .btn--red::after {
+    margin-bottom: -5px;
+  }
+  .notification__circle2 {
+    transform: translate(201px, 86px);
+    width: 494px;
+    height: 494px;
+    padding: 117px 112px;
+  }
+  .notification__dotline {
+    transform: translate(506px, 406px);
+    width: 706px;
+    height: 706px;
+  }
+  .event__title {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+  }
+  .event__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .schedule__time {
+    font: normal normal normal 16px/24px 'Proxima Nova Bold';
+  }
+  .schedule__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .main-content {
+    max-width: 1086px;
+    margin: auto;
+  }
+  .title--s {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  .title--l {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+  }
+  .section__content {
+    font: normal normal normal 18px/26px 'Proxima Nova';
+  }
+  .bg-1 {
+    top: -761px;
+    left: -741px;
+    width: 2418px;
+    height: 2418px;
+  }
+  .bg-2 {
+    top: -484px;
+    left: -464px;
+    width: 1865px;
+    height: 1864px;
+  }
+  .circle__yellow {
+    top: -61px;
+    right: 139px;
+    width: 148px;
+    height: 148px;
+  }
+  .cloud--upper-right {
+    top: 344px;
+    right: -260px;
+    width: 200px;
+  }
+  .cloud--upper-left {
+    top: 444px;
+    right: 35px;
+    width: 163px;
+  }
+  .circle__orange {
+    top: 410px;
+    right: -136px;
+    width: 247px;
+    height: 247px;
+  }
+  .bus {
+    top: 520px;
+    right: -97px;
+    width: 399px;
+  }
+  .circle__blue {
+    top: 793px;
+    left: 42px;
+    width: 142px;
+    height: 142px;
+  }
+  .cloud--mid-left {
+    top: 961px;
+    left: 183px;
+    width: 228px;
+  }
+  .cloud--mid-right {
+    bottom: -279px;
+    right: 95px;
+    width: 323px;
+  }
+  .cloud--lower-left {
+    bottom: -348.7px;
+    right: -400px;
+    width: 163px;
+  }
+  .cloud--lower-right {
+    bottom: -359px;
+    left: 65px;
+    width: 237px;
+  }
+  .schedules {
+    margin-top: -194px;
+    margin-left: 46px;
+    height: 277px;
+  }
+  .schedule__dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 22px;
+  }
+  .section__ahead__conversation {
+    margin-top: 61px;
+    height: 205px;
+  }
+  .join-conversation {
+    transform: translate(0, -129px);
+    margin-left: -68px;
+  }
+  .conversation__item img {
+    width: 28px;
+  }
+  .conversation__item {
+    margin-bottom: 10px;
+  }
+  .conversation__content {
+    font: normal normal normal 16px/24px 'Proxima Nova Bold';
+  }
+  .message {
+    width: 184px;
+    height: 184px;
+    margin-right: 56px;
+    font: normal normal normal 24px/30px 'Tiempos Headline Bold';
+  }
+  .section__map__itinerary {
+    margin-top: 128px;
+  }
+  .section_itinerary {
+    width: 398px;
+    height: 440px;
+  }
+  .section__dotline {
+    margin-top: 290px;
+  }
+  .locations-list {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .section__map {
+    top: 220px;
+    margin-left: -80px;
+  }
+  .section__limited {
+    top: 109px;
+    width: 244px;
+    height: 244px;
+  }
+  .section__limited__text {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+    margin-bottom: 24px;
+  }
+  .section__mission {
+    width: 290px;
+    padding-bottom: 90px;
+  }
+  .section__missionTitle {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+    padding-left: 120px;
+    padding-right: 20px;
+  }
+  .section__missionContents {
+    max-width: 913px;
+    padding-top: 180px;
+  }
+  .section__missionSubtitle {
+    font: normal normal normal 24px/32px 'Tiempos Headline Bold';
+    height: 90px;
+  }
+  .section__missionContent {
+    font: normal normal normal 18px/26px 'Proxima Nova';
+  }
+  .section__address {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  a.label {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  .section__copyright .main-content {
+    font: normal normal normal 12px/20px 'Proxima Nova Bold';
+  }
 }
