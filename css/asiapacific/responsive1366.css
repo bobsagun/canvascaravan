@@ -1,0 +1,8 @@
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1086px;
+  }
+  .navbar__brand {
+    font: normal normal normal 38px/60px 'Tiempos Headline Bold';
+  }
+}

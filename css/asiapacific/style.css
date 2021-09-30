@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  max-width: 1640px;
-}
-
 div,
 span,
 a {
@@ -36,36 +32,19 @@ a {
 }
 
 .bg-1 {
-  top: -52.81vw;
-  left: -54.17vw;
-  width: 165.31vw;
-  height: 165.31vw;
-  background: #f0f2f3 0% 0% no-repeat padding-box;
+  background: #f0f2f3;
 }
 
 .bg-2 {
-  top: -33.91vw;
-  left: -35.26vw;
-  width: 127.5vw;
-  height: 127.5vw;
   background: transparent linear-gradient(90deg, #ffffff 0%, #ffffff00 100%) 0% 0% no-repeat
     padding-box;
 }
 
 .circle__yellow {
-  top: -128px;
-  right: 140px;
-  width: 216px;
-  height: 216px;
   background: #facb13 0% 0% no-repeat padding-box;
 }
 
 .notification {
-  /* margin-top: -9.48vw;
-  margin-left: -10.83vw; */
-  transform: translate(-9.48vw, -10.83vw);
-  width: 78.64vw;
-  height: 78.64vw;
   background-image: url('../../assets/images/asiapacific/greenbg.svg');
   background-size: cover;
   display: flex;
@@ -75,9 +54,9 @@ a {
 
 .notification__circle1 {
   background: white;
-  width: 58.15%;
-  height: 58.15%;
-  padding: 10% 13% 7% 13%;
+  /* width: 58.15%;
+  height: 58.15%; */
+  /* padding: 10% 13% 7% 13%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -149,76 +128,28 @@ a {
 }
 
 .circle__orange {
-  top: 29%;
-  left: 87%;
-  width: 362px;
-  height: 362px;
   background: #f68e20 0% 0% no-repeat padding-box;
 }
-.cloud--upper-right {
-  top: 22%;
-  left: 105%;
-  width: 300px;
-}
-.cloud--upper-left {
-  top: 31%;
-  left: 79%;
-  width: 257px;
-}
 .bus {
-  top: 46%;
-  left: 70%;
-  width: 580px;
   z-index: 9;
 }
 .circle__blue {
-  top: 75%;
-  left: 4%;
-  width: 216px;
-  height: 216px;
   background: #39b7d7 0% 0% no-repeat padding-box;
 }
 .cloud--mid-right {
-  top: 95%;
-  left: 75%;
-  width: 300px;
   z-index: 9;
-}
-.cloud--mid-left {
-  top: 92%;
-  left: 25%;
-  width: 257px;
-}
-.cloud--lower-right {
-  top: 114%;
-  left: 15%;
-  width: 257px;
-}
-.cloud--lower-left {
-  top: 114%;
-  right: -30%;
-  width: 200px;
 }
 
 .notification__circle2 {
   bottom: 0;
   right: 0;
-  transform: translate(56%, 2%);
   background: white;
-  width: 43.15%;
-  height: 43.15%;
-  padding: 15% 8% 10% 8%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .notification__dotline {
-  bottom: -6.5%;
-  right: 1%;
-  transform: translate(56%, 2%);
-  width: 58.15%;
-  height: 57.15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -243,9 +174,6 @@ a {
 }
 
 .schedules {
-  margin-top: -10vw;
-  margin-left: 60px;
-  height: 16vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -298,8 +226,6 @@ a {
 
 .section__ahead__conversation {
   display: flex;
-  margin-top: 4vw;
-  height: 16vw;
 }
 .section__ahead {
   width: 528px;
@@ -313,11 +239,8 @@ a {
 .join-conversation {
   display: flex;
   align-items: center;
-  transform: translate(0, -191px);
 }
 .message {
-  width: 240px;
-  height: 240px;
   background: url(../../assets/images/asiapacific/message.svg) no-repeat;
   background-size: contain;
   text-align: center;
@@ -326,7 +249,6 @@ a {
   color: #156380;
   display: flex;
   align-items: center;
-  margin-right: 40px;
 }
 .locations-list li {
   list-style-type: none;
@@ -344,12 +266,7 @@ a {
   margin-right: 10px;
 }
 
-.section__map__itinerary {
-  margin-top: 10vw;
-}
 .section_itinerary {
-  width: 398px;
-  height: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -370,21 +287,12 @@ a {
   letter-spacing: 0px;
   color: #333333;
 }
-.section__map {
-  top: 9vw;
-  margin-left: 32px;
-}
-
-.section__dotline {
-  margin-top: 4vw;
-}
 
 .section__limited {
   width: 320px;
   height: 320px;
   background: #ffffff;
   box-shadow: 0px 20px 50px #0000001a;
-  top: 38%;
   left: 50%;
   transform: translate(-50%, 0);
 
@@ -522,4 +430,134 @@ a.label {
   font: normal normal normal 14px/20px 'Proxima Nova Bold';
   letter-spacing: 0px;
   color: #767676;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1640px;
+  }
+  .navbar__brand {
+    font: normal normal normal 48px/60px 'Tiempos Headline Bold';
+  }
+  .notification {
+    transform: translate(-208px, -307px);
+    width: 1510px;
+    height: 1510px;
+  }
+  .notification__circle1 {
+    width: 878px;
+    height: 878px;
+    padding: 155px 172px 95px 171px;
+  }
+  .notification__circle2 {
+    transform: translate(436px, 120px);
+    width: 718px;
+    height: 718px;
+    padding: 223px 149px 223px 150px;
+  }
+  .notification__dotline {
+    transform: translate(827px, 530px);
+    width: 1092px;
+    height: 1092px;
+  }
+  .bg-1 {
+    top: -1014px;
+    left: -1040px;
+    width: 3174px;
+    height: 3174px;
+  }
+  .bg-2 {
+    top: -651px;
+    left: -677px;
+    width: 2448px;
+    height: 2448px;
+  }
+  .circle__yellow {
+    top: -122px;
+    right: 124px;
+    width: 216px;
+    height: 216px;
+  }
+  .cloud--upper-right {
+    top: 363px;
+    right: -374px;
+    width: 300px;
+  }
+  .cloud--upper-left {
+    top: 504px;
+    right: 59px;
+    width: 243px;
+  }
+  .circle__orange {
+    top: 459px;
+    right: -180px;
+    width: 362px;
+    height: 362px;
+  }
+  .bus {
+    top: 668px;
+    right: -140px;
+    width: 580px;
+  }
+  .circle__blue {
+    top: 1160px;
+    left: 100px;
+    width: 216px;
+    height: 216px;
+  }
+  .cloud--mid-left {
+    top: 1386px;
+    left: 353px;
+    width: 257px;
+  }
+  .cloud--mid-right {
+    bottom: -373px;
+    right: 88px;
+    width: 400px;
+  }
+  .cloud--lower-left {
+    bottom: -438.7px;
+    right: -490px;
+    width: 200px;
+  }
+  .cloud--lower-right {
+    bottom: -550px;
+    left: 240px;
+    width: 300px;
+  }
+  .schedules {
+    margin-top: -239px;
+    margin-left: 67px;
+    height: 318px;
+  }
+  .section__ahead__conversation {
+    margin-top: 104px;
+    height: 322px;
+  }
+  .join-conversation {
+    transform: translate(0, -183px);
+    margin-left: 27px;
+  }
+  .message {
+    width: 240px;
+    height: 240px;
+    margin-right: 40px;
+  }
+  .section__map__itinerary {
+    margin-top: 147px;
+  }
+  .section_itinerary {
+    width: 398px;
+    height: 504px;
+  }
+  .section__dotline {
+    margin-top: 100px;
+  }
+  .section__map {
+    top: 118px;
+    margin-left: 34px;
+  }
+  .section__limited {
+    top: 144px;
+  }
 }
