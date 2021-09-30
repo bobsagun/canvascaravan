@@ -1,0 +1,198 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 530px;
+  }
+  .call2action .user-act {
+    margin-top: 20px;
+  }
+  .hero-vector {
+    position: absolute;
+    top: 350px;
+  }
+  .overview .container .hero-vector {
+    position: absolute;
+  }
+  .hero .overview .call2action {
+    padding: 50px 65px;
+  }
+  .hero .call2action .content {
+    margin-top: 30px;
+  }
+  .hero-vector .img-bus:hover {
+    transition: transform 1s;
+    -ms-transform: scale(1.05) translate(30px, 0px);
+    -webkit-transform: scale(1.05) translate(30px, 0px);
+    transform: scale(1.05) translate(30px, 0px);
+  }
+  .img-bus:hover {
+    transition: transform 1s;
+    -ms-transform: scale(1.1) translate(30px, 0px);
+    -webkit-transform: scale(1.1) translate(30px, 0px);
+    transform: scale(1.1) translate(30px, 0px);
+  }
+  .hero-section {
+    height: 735px;
+  }
+
+  .hero {
+    padding: 90px;
+  }
+
+  .cards-container .card {
+    padding: 60px 80px;
+    margin-bottom: 35px;
+  }
+  .card .section-body {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .feature .cards-container .card .img-sec {
+    margin: 0 20px;
+  }
+
+  .feature .cards-container .card .img-sec {
+    height: 200px;
+  }
+
+  .winnebago img {
+    width: 260px;
+  }
+
+  .address {
+    margin-bottom: 20px;
+  }
+  .cont-num {
+    margin: 0 32px;
+  }
+
+  .can-edu h2 {
+    width: 470px;
+  }
+
+  .footer .footer-1 > div {
+    margin-right: 30px;
+  }
+
+  .footer-1 .label {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    height: 29px;
+  }
+
+  .footer-call2-action .card {
+    width: 470px;
+  }
+
+  .address {
+    display: table;
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
+
+  .copyright .container span:first-child {
+    display: block;
+  }
+
+  /* k-12 page */
+  .k12 .hero-vector {
+    padding:0;
+    position: absolute;
+    top: 450px;
+  }
+  .can-edu-k12 h2 {
+    width: 362px;
+    margin: 0 auto;
+  }
+  .can-edu-k12 {
+    width: 442px;
+    margin: 100px auto;
+  }
+  .k12 .event-feature .bus-img .bus-circle {
+    height: 330px;
+    width: 330px;
+  }
+  .k12 .schoolbus img {
+    width: 300px;
+  }
+  .k12 .bus-circle .schoolbus {
+    width: 530px;
+    margin-left: -100px;
+    margin-top: 102px;
+  }
+  .k12 .schoolbus:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.1) translate(30px, 0px);
+    -webkit-transform: scale(1.1) translate(30px, 0px);
+    transform: scale(1.1) translate(30px, 0px);
+  }
+  .k12 .map-itinerary .itnerary-sc .content, .can-edu-k12 .content {
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .event-feature .event-card .card-body .card-right .card-label {
+    margin-top: 24px;
+  }
+
+  /* HE page */
+  .he .hero-section {
+    height: 820px;
+  }
+  .he .hero-vector {
+    padding:0;
+    position: absolute;
+    top: 423px;
+  }
+  .can-edu-he h2 {
+    width: 362px;
+    margin: 0 auto;
+  }
+  .can-edu-he {
+    width: 442px;
+    margin: 100px auto;
+  }
+  .he .event-feature .bus-img .bus-circle {
+    height: 330px;
+    width: 330px;
+  }
+  .he .schoolbus img {
+    width: 300px;
+  }
+  .he .bus-circle .schoolbus {
+    width: 425px;
+    margin-left: -55px;
+    margin-top: 55px;
+  }
+  .he .schoolbus:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.1) translate(30px, 0px);
+    -webkit-transform: scale(1.1) translate(30px, 0px);
+    transform: scale(1.1) translate(30px, 0px);
+  }
+  .he .map-itinerary .itnerary-sc .content, .can-edu-he .content {
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  /* Header and Footer */
+  .top-bar-logo {
+    height: 19px;
+    margin: 20px 0;
+  }
+  .footer-logo {
+    height: 16px;
+    margin: 35px 0 40px 0;
+  }
+
+  .modal-register-now .rg-modal-content .modal-locations {
+    min-width: 350px;
+  }
+
+  .modal-register-now .rg-modal-content .modal-locations {
+    width: 90%;
+  }
+}

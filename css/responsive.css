@@ -1,0 +1,148 @@
+@media only screen and (min-width: 769px) {
+  h1 {
+    font: normal normal normal 56px/60px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+  h1.he.highlight {
+    color: #e72429;
+  }
+  h1.k12.highlight {
+    color: #006184;
+  }
+
+  h2 {
+    font: normal normal normal 40px/48px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+
+  h3 {
+    font: normal normal normal 30px/38px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+
+  h4 {
+    font: normal normal normal 24px/32px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+  
+  .label, span {
+    font: normal normal normal 14px/22px 'Proxima Nova Bold';
+    color: #767676;
+    margin-bottom: 2px;
+  }
+
+  body, #LblHas_Opted_into_GDPR__c {
+    font: normal normal normal 18px/26px 'Proxima Nova';
+    color: #333333;
+  }
+
+  small, span.small {
+    font: normal normal normal 14px/20px 'Proxima Nova';
+    color: #333333;
+  }
+
+  .can-edu h2 {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .footer .footer-1 {
+    align-items: center;
+  }
+
+  .event-feature .event-card .card-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+  }
+
+  .more-feature .more-feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+  }
+
+  .tt_sm {
+    padding: 40px !important;
+    width: 300px !important;
+  }
+  
+  .tt_name_sm {
+    font: normal normal bold 16px/24px 'Proxima Nova' !important;
+  }
+  .event-feature .event-card {
+    /* width: 889px;
+    height: 570px; */
+  
+    padding: 50px 84px 50px 84px;
+  }
+
+  .more-feature .more-feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font: normal normal normal 38px/40px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+  h1.he.highlight {
+    color: #e72429;
+  }
+  h1.k12.highlight {
+    color: #006184;
+  }
+
+  h2 {
+    font: normal normal normal 32px/40px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+
+  h3 {
+    font: normal normal normal 24px/32px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+
+  h4 {
+    font: normal normal normal 18px/26px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+  
+  .label, span {
+    font: normal normal normal 14px/22px 'Proxima Nova Bold';
+    color: #767676;
+    margin-bottom: 2px;
+  }
+
+  body, #LblHas_Opted_into_GDPR__c {
+    font: normal normal normal 16px/26px 'Proxima Nova';
+    color: #333333;
+  }
+
+  small, span.small {
+    font: normal normal normal 14px/20px 'Proxima Nova';
+    color: #333333;
+  }
+
+  .tt_sm {
+    padding: 20px !important;
+    width: 240px !important;
+  }
+  
+  .tt_name_sm {
+    font: normal normal bold 14px/18px 'Proxima Nova' !important;
+  }
+
+  .event-feature .event-card {
+    /* width: 889px;
+    height: 570px; */
+  
+    padding: 25px 42px;
+  }
+}

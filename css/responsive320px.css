@@ -1,0 +1,454 @@
+@media only screen and (max-width: 575px) {
+  h1 {
+    font: normal normal normal 26px/30px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+  h1.he.highlight {
+    color: #e72429;
+  }
+  h1.k12.highlight {
+    color: #006184;
+  }
+
+  h2 {
+    font: normal normal normal 24px/28px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+
+  h3 {
+    font: normal normal normal 24px/32px 'Tiempos Headline Bold';
+    color: #444444;
+  }
+
+  h4 {
+    font: normal normal normal 18px/26px 'Tiempos Headline Bold';
+    color: #006184;
+  }
+
+  .label,
+  span {
+    font: normal normal normal 14px/22px 'Proxima Nova Bold';
+    color: #767676;
+    margin-bottom: 2px;
+  }
+
+  body,
+  #LblHas_Opted_into_GDPR__c {
+    font: normal normal normal 14px/22px 'Proxima Nova';
+    color: #333333;
+  }
+
+  small,
+  span.small {
+    font: normal normal normal 14px/20px 'Proxima Nova';
+    color: #333333;
+  }
+
+  .tt_sm {
+    padding: 20px !important;
+    width: 200px !important;
+  }
+
+  .tt_name_sm {
+    font-family: 'Proxima Nova' !important;
+    font-size: 12px/14px !important;
+    color: #444444 !important;
+  }
+
+  .event-feature .event-card {
+    /* width: 889px;
+    height: 570px; */
+
+    padding: 25px 42px;
+  }
+
+  .container {
+    width: 300px;
+  }
+  .link.overview {
+    margin-right: 10px;
+  }
+  .header .navigation .nav {
+    margin-bottom: 30px;
+  }
+  .call2action .user-act {
+    margin-top: 20px;
+  }
+  .hero-vector {
+    position: absolute;
+    bottom: -150px;
+  }
+  .hero-vector,
+  .hero-vector-k12,
+  .hero-vector-he {
+    text-align: center;
+  }
+  .hero-vector img,
+  .hero-vector-k12 img,
+  .hero-vector-he img {
+    width: 80%;
+  }
+
+  .overview .container .hero-vector {
+    position: absolute;
+  }
+  .can-edu .content {
+    padding: 0 30px;
+  }
+  .hero .overview .call2action {
+    padding: 32px 25px;
+  }
+  .hero .call2action .content {
+    margin: 15px 0;
+  }
+  .hero-vector .img-bus:hover {
+    transition: transform 1s;
+    -ms-transform: scale(1.05) translate(30px, 0px);
+    -webkit-transform: scale(1.05) translate(30px, 0px);
+    transform: scale(1.05) translate(30px, 0px);
+  }
+  .img-bus:hover {
+    transition: transform 1s;
+    -ms-transform: scale(1.1) translate(30px, 0px);
+    -webkit-transform: scale(1.1) translate(30px, 0px);
+    transform: scale(1.1) translate(30px, 0px);
+  }
+  .hero-section {
+    height: 570px;
+  }
+
+  .hero {
+    padding: 25px 10px;
+  }
+
+  .cards-container .card {
+    padding: 30px;
+    margin-bottom: 35px;
+  }
+  .card .section-body {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .feature {
+    padding-bottom: 30px;
+  }
+
+  .feature .cards-container .card .img-sec {
+    margin: 0 10px;
+  }
+
+  .feature .cards-container .card .img-sec {
+    height: 142px;
+  }
+
+  .schoolbus img {
+    width: 218px;
+  }
+
+  .winnebago img {
+    width: 260px;
+  }
+
+  .address {
+    margin-bottom: 20px;
+  }
+  .cont-num {
+    margin: 0 32px;
+  }
+
+  .footer-1 .label {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    height: 29px;
+  }
+
+  .feature {
+    padding-top: 50px;
+  }
+
+  .footer-call2-action .card {
+    width: 300px;
+  }
+
+  .footer-call2-action .card h2 {
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+
+  .address span {
+    font-size: 10px;
+  }
+
+  .address {
+    display: table;
+    margin: 0px auto;
+  }
+
+  .copyright .container span:first-child {
+    display: block;
+  }
+
+  /* k12 page */
+  .link.k12_event {
+    margin-right: 10px;
+  }
+  .k12 .hero .overview .call2action {
+    padding: 32px 25px;
+  }
+  .k12 .hero-vector {
+    position: absolute;
+    bottom: -104px;
+  }
+  .k12 .event-feature .bus-img .bus-circle {
+    height: 235px;
+    width: 235px;
+  }
+  .k12 .bus-circle .schoolbus {
+    width: 378px;
+    margin-left: -69px;
+    margin-top: 69px;
+  }
+  .k12 .schoolbus:hover {
+    transition: transform 0.3s;
+    -ms-transform: scale(1.1) translate(20px, 0px);
+    -webkit-transform: scale(1.1) translate(20px, 0px);
+    transform: scale(1.1) translate(20px, 0px);
+  }
+  .k12 .hero-section {
+    height: 490px;
+  }
+  .event-feature .event-card .card-body .card-right .card-label {
+    margin-top: 24px;
+  }
+  .event-feature .event-card {
+    padding: 50px 54px 50px 54px;
+  }
+  .more-feature .more-feature-grid {
+    display: block;
+  }
+
+  /* HE page */
+  .he .hero .overview .call2action {
+    padding: 32px 25px;
+  }
+  .he .hero-vector {
+    position: absolute;
+    bottom: -150px;
+  }
+  .he .event-feature .bus-img .bus-circle {
+    height: 235px;
+    width: 235px;
+  }
+  .he .bus-circle .schoolbus {
+    width: 300px;
+    margin-left: -36px;
+    margin-top: 41px;
+  }
+  .he .schoolbus:hover {
+    transition: transform 0.3s;
+    -ms-transform: scale(1.1) translate(20px, 0px);
+    -webkit-transform: scale(1.1) translate(20px, 0px);
+    transform: scale(1.1) translate(20px, 0px);
+  }
+  .he .hero-section {
+    height: 540px;
+  }
+
+  /* Header and Footer */
+  .top-bar-logo {
+    height: 14px;
+    margin: 8px 0;
+  }
+  .footer-logo {
+    height: 12px;
+    margin: 9px 0 20px 0;
+  }
+
+  /* Modal Style */
+  .modal-register-now.reg-hero {
+    padding: 34px 0 0 34px;
+  }
+  .modal-register-now .rg-modal-content .modal-title {
+    margin-bottom: 25px;
+  }
+  .modal-register-now .rg-modal-content .modal-locations {
+    display: block;
+  }
+
+  .can-edu .k-12-act {
+    padding: 0 30px;
+  }
+  .can-edu .k-12-act img {
+    margin-left: 7px;
+  }
+
+  .sliderContainer.owl-carousel.owl-drag
+    .owl-item
+    .event-card
+    .card-act
+    .card-btn {
+    outline: none;
+    border: none;
+
+    color: #ffffff;
+    font: normal normal bold 14px/22px Proxima Nova;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+
+    padding-right: 32px;
+    padding-left: 32px;
+    height: 48px;
+    background: #d41b5d;
+    border-radius: 24px;
+    transition: transform 0.5s;
+
+    display: inline-block;
+    line-height: 48px;
+    text-align: center;
+  }
+  .sliderContainer.owl-carousel.owl-drag .owl-item {
+    opacity: 1;
+  }
+
+  .header .navigation .nav .link a:link,
+  .header .navigation .nav .link a:visited {
+    font: normal normal bold 12px/22px 'Proxima Nova';
+  }
+
+  .can-edu .content {
+    margin-top: 15px;
+  }
+
+  .can-edu {
+    margin: 50px 0;
+  }
+
+  .card .usr-act {
+    position: inherit;
+  }
+
+  .feature .cards-container .card .section-body .content p {
+    margin-bottom: 10px;
+  }
+
+  .winnebago img {
+    width: 190px;
+  }
+
+  .map-itinerary {
+    padding-bottom: 30px;
+  }
+
+  .map-itinerary .map-act-btns {
+    display: block;
+    text-align: center;
+  }
+
+  .k12 .bus-circle .schoolbus {
+    width: 250px;
+    margin: 70px auto;
+    transform: scale(1.1);
+  }
+
+  .footer .footer-1 > div:not(.address) {
+    margin-right: 30px;
+  }
+
+  .footer .footer-1 .cont-us {
+    margin-left: 30px;
+  }
+
+  .footer .footer-1 .social-media {
+    margin-left: 30px;
+  }
+
+  .address {
+    /* margin-bottom: 20px; */
+    text-align: center;
+    width: 224px;
+  }
+
+  .footer-call2-action .card h2 {
+    font-size: 30px;
+  }
+
+  .hero .date {
+    margin-top: 15px;
+  }
+
+  .hero .call2action .date {
+    font: normal normal bold 20px/28px 'Proxima Nova';
+  }
+
+  .map-itinerary {
+    padding-top: 50px;
+  }
+
+  .event-feature .bus-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .event-feature .event-card .card-head h2 {
+    font: normal normal bold 30px/38px 'Tiempos Headline Bold';
+  }
+
+  .event-feature .event-card .card-body .card-right .card-label {
+    font: normal normal bold 24px/34px 'Tiempos Headline Bold';
+  }
+
+  .event-feature .event-card .card-body li {
+    font: normal normal bold 16px/26px Proxima Nova;
+  }
+
+  .event-feature .event-card .card-body li::before {
+    top: 5px;
+  }
+
+  .footer .copyright .container {
+    padding: 0 55px;
+  }
+
+  .mktoForm input[type='text'],
+  .mktoForm input[type='url'],
+  .mktoForm input[type='email'],
+  .mktoForm input[type='tel'],
+  .mktoForm input[type='number'],
+  .mktoForm input[type='date'],
+  .mktoForm textarea.mktoField,
+  .mktoForm select.mktoField {
+    min-width: 200px !important;
+    height: 56px !important;
+  }
+
+  .mktoButtonRow {
+    display: block !important;
+  }
+
+  .event-feature .event-card .card-body .card-left p {
+    font: normal normal normal 16px/26px Proxima Nova;
+  }
+
+  .he .bus-circle .schoolbus {
+    width: 255px;
+    margin-left: -10px;
+    margin-top: 41px;
+  }
+
+  .modal-register-now .rg-modal-content .modal-title p {
+    font: normal normal normal 28px/28px 'Tiempos Headline Bold';    
+  }
+  .modal-register-now .rg-modal-content .modal-locations {
+    width: 75%;
+  }
+
+  .map-act-btns > p {
+    margin-bottom: 10px;
+  }
+}

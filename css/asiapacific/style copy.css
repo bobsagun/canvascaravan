@@ -1,0 +1,565 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  /* background: #facb13; */
+}
+
+.container {
+  max-width: 1640px;
+}
+
+div,
+span,
+a {
+  font-family: 'Proxima Nova';
+}
+
+.navbar {
+  z-index: 10;
+  background-color: #ffffff;
+  height: 120px;
+}
+
+.navbar__brand {
+  text-align: left;
+  font: normal normal normal 48px/60px 'Tiempos Headline Bold';
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.navbar__logo {
+  width: 384px;
+}
+
+.bg-1 {
+  top: -52.81vw; /* -1014px; */
+  left: -54.17vw; /* -1040px; */
+  width: 165.31vw; /* 3174px; */
+  height: 165.31vw; /* 3174px; */
+  background: #f0f2f3 0% 0% no-repeat padding-box;
+}
+
+.bg-2 {
+  top: -33.91vw; /* -651px; */
+  left: -35.26vw; /* -677px; */
+  width: 127.5vw; /* 2448px; */
+  height: 127.5vw; /* 2448px; */
+  background: transparent linear-gradient(90deg, #ffffff 0%, #ffffff00 100%) 0% 0% no-repeat
+    padding-box;
+}
+
+.notification {
+  margin-top: -9.48vw;
+  margin-left: -10.83vw;
+  width: 78.6vw;
+  height: 78.6vw;
+  background: #43ca9e 0% 0% no-repeat padding-box;
+  /* background: url('../../assets/images/asiapacific/greenbg.svg') no-repeat center; */
+  /* mix-blend-mode: color; */
+}
+.hero-background {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.red-button:hover,
+.red-button:focus,
+.red-button:active {
+  color: #ffffff;
+}
+
+.white-button:hover,
+.white-button:focus,
+.white-button:active {
+  color: #d23b35;
+}
+
+.white-button {
+  color: #d23b35;
+  background: #ffffff;
+  outline: none;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 24px;
+  transition: transform 0.5s;
+  text-align: center;
+  font: normal normal bold 14px/22px 'Proxima Nova Bold';
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0px 20px 50px #0000001a;
+}
+
+.white-button::after {
+  content: url('../../assets/images/arrow-right.svg');
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.red-button {
+  color: #ffffff;
+  /* background: #d41b5d; */
+  background: linear-gradient(to right, #e72429, #d41b5d);
+  outline: none;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 24px;
+  transition: transform 0.5s;
+  text-align: center;
+  font: normal normal bold 14px/22px Proxima Nova;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.red-button:hover {
+  background: #e72429;
+}
+
+.red-button img {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.red-button::after {
+  content: url('../../assets/images/arrow-right-white.svg');
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.outer-1 {
+  width: 350vw; /* You can define it by % also */
+  height: 350vw; /* You can define it by % also*/
+  position: relative;
+  margin-left: -151vw;
+  margin-top: -148vw;
+  background: #ffffff;
+  border-radius: 173vw;
+}
+.inner-1 {
+  border: 1px dotted #afafaf;
+  top: 5%;
+  left: 5%; /* of the container */
+  width: 90%; /* of the outer-1 */
+  height: 90%; /* of the outer-1 */
+  position: absolute;
+  border-radius: 50%;
+}
+.inner-2 {
+  top: 24%;
+  left: 24%; /* of the container */
+  width: 52%; /* of the inner-1 */
+  height: 52%; /* of the inner-1 */
+  position: absolute;
+  border-radius: 50%;
+  background: #f0f2f3;
+}
+
+.inner-3 {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  top: 31.5%;
+  left: 31.5%; /* of the container */
+  width: 37%; /* of the inner-1 */
+  height: 37%; /* of the inner-1 */
+  position: absolute;
+  border-radius: 50%;
+}
+
+.inner-4 {
+  background: url('../../assets/images/asiapacific/greenbg.svg') no-repeat center;
+  top: 38.5%;
+  left: 38.5%;
+  width: 23%;
+  height: 23%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.inner-5 {
+  background: #ffffff;
+  top: 44%;
+  left: 44%; /* of the container */
+  width: 12%; /* of the inner-1 */
+  height: 12%; /* of the inner-1 */
+  position: absolute;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-1 .bus {
+  position: absolute;
+  top: 48%;
+  left: 54%;
+  width: 30vw;
+  height: auto;
+  z-index: 10;
+}
+
+.outer-1 .yellow-circle {
+  position: absolute;
+  top: 40.5%;
+  left: 65%;
+  width: 15vw;
+  height: auto;
+}
+
+.outer-1 .orange-circle {
+  position: absolute;
+  top: 45%;
+  left: 58%;
+  width: 19vw;
+  height: auto;
+}
+
+.outer-1 .cloud-1 {
+  position: absolute;
+  top: 45.5%;
+  left: 58%;
+  width: 14vw;
+  height: auto;
+}
+
+.outer-1 .cloud-2 {
+  position: absolute;
+  top: 44%;
+  left: 62%;
+  width: 17vw;
+  height: auto;
+}
+
+.title-1 {
+  font-family: 'Tiempos Headline Bold';
+}
+
+.event-subtitle {
+  font-family: 'Proxima Nova';
+  font-size: 26px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.event-title {
+  margin-bottom: 25px;
+}
+
+.event-overview {
+  width: 70%;
+  text-align: center;
+}
+
+.event-date {
+  font-family: 'Proxima Nova Bold';
+  color: #006184;
+  font-size: 24px;
+}
+
+.event-description {
+  font-size: 18px;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.event-overview-2 {
+  position: absolute;
+  width: 720px;
+  max-width: 90%;
+  height: 720px;
+  border-radius: 360px;
+  top: 36vw;
+  right: 10vw;
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-overview-2 > div {
+  width: 495px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.event-overview-2 .title-2 {
+  font-family: 'Tiempos Headline Bold';
+  font-size: 40px;
+  font-weight: bold;
+  color: #006184;
+}
+
+/* Schedules */
+.main-content {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  top: calc(40vw + 700px);
+}
+
+.main-content > div {
+  max-width: 90%;
+  width: 1364px;
+  margin: 0 auto;
+}
+
+.schedules {
+  margin-left: 5vw;
+}
+
+.schedule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.schedule > div:last-child {
+  margin-left: 25px;
+}
+
+.schedule > div:last-child > div:first-child {
+  font-family: 'Proxima Nova Bold';
+  font-size: 18px;
+  color: #156380;
+}
+
+.schedule > div:last-child > div:last-child {
+  font-family: 'Proxima Nova';
+  font-size: 24px;
+  color: #e72429;
+}
+
+/* Join the conversation */
+.join-conversation {
+  display: flex;
+  margin-left: 40vw;
+  margin-top: -100px;
+}
+
+.join-conversation > div:first-child {
+  width: 240px;
+  height: 240px;
+  background: url(../../assets/images/asiapacific/message.svg) no-repeat;
+  background-size: contain;
+}
+
+.conversation-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 3vw;
+}
+
+.conversation-lists .item {
+  font-size: 18px;
+  color: #767676;
+}
+
+.conversation-lists .item span {
+  margin-left: 20px;
+}
+
+.locations-list {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.locations-list li {
+  list-style-type: none;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.locations-list li:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #f68e20;
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.section .title-s {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Bold';
+  color: #444444;
+}
+
+.section .title-l,
+.header-1 {
+  font-family: 'Tiempos Headline Bold';
+  font-size: 40px;
+  margin: 30px 0;
+  color: #006184;
+}
+
+.section-3 {
+  width: 498px;
+  max-width: 90%;
+}
+
+.section-3 .red-button {
+  margin-top: 30px;
+}
+
+.section-4 {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-4 > div:first-child {
+  width: 398px;
+  max-width: 90%;
+}
+
+.section-4 .white-button {
+  margin-left: 20px;
+}
+
+.section.map {
+  margin: 0 auto;
+  width: 1247px;
+  max-width: 90%;
+  margin-top: -300px;
+}
+
+.section-5 {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.section-5 .header-1 {
+  margin-top: 180px;
+}
+
+.section-5 .content {
+  margin: 0 auto;
+  max-width: 1120px;
+  width: 90%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 88px;
+}
+
+.section-5 .content .item {
+  text-align: left;
+}
+
+.section-5 .content .item .header {
+  font-family: 'Tiempos Headline Bold';
+  font-size: 30px;
+  color: #444444;
+  height: 108px;
+}
+
+.section-5 .content .item .event-description {
+  font-size: 18px;
+  color: #444444;
+}
+
+.footer {
+  background: #ffffff;
+  position: relative;
+}
+
+.footer-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer-1 .address {
+  font-family: 'Proxima Nova Bold';
+  font-size: 14px;
+  color: #767676;
+}
+
+.cont-us,
+.cont-num {
+  margin-left: 30px;
+}
+
+.cont-us a,
+.cont-num a {
+  color: #e72429;
+  text-decoration: none;
+}
+
+.social-media {
+  width: 137px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.social-media .icon {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-media .icon.linkedin {
+  background-image: url('../../assets/images/Icon\ awesome-linkedin.png');
+}
+
+.social-media .icon.linkedin:hover {
+  background-image: url('../../assets/images/Icon\ awesome-linkedin-1.png');
+}
+
+.social-media .icon.twitter {
+  background-image: url('../../assets/images/Icon\ awesome-twitter.png');
+}
+
+.social-media .icon.twitter:hover {
+  background-image: url('../../assets/images/Icon\ awesome-twitter-1.png');
+}
+
+.social-media .icon.facebook {
+  background-image: url('../../assets/images/Icon\ awesome-facebook.png');
+}
+
+.social-media .icon.facebook:hover {
+  background-image: url('../../assets/images/Icon\ awesome-facebook-1.png');
+}
+
+.social-media .icon.instagram {
+  background-image: url('../../assets/images/Icon\ awesome-instagram.png');
+}
+
+.social-media .icon.instagram:hover {
+  background-image: url('../../assets/images/Icon\ awesome-instagram-1.png');
+}
+
+.copyright {
+  background: #f2f8fa;
+}
+
+.copyright {
+  text-align: center;
+  padding: 26px 0;
+}
+
+.copyright span {
+  font-family: 'Proxima Nova Bold';
+  font-size: 14px;
+  color: #767676;
+}

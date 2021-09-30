@@ -1,0 +1,144 @@
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+
+  .call2action {
+    width: 691px;
+  }
+  .hero-vector {
+    width: 691px;
+  }
+  .overview .container .hero-vector {
+    position: absolute;
+    right: 0;
+    top: 105px;
+  }
+
+  .hero .overview .call2action {
+    padding: 50px 0px 50px 50px;
+  }
+  .img-bus:hover {
+    transition: transform 1s;
+    -ms-transform: scale(1.1) translate(60px, 0px);
+    -webkit-transform: scale(1.1) translate(60px, 0px);
+    transform: scale(1.1) translate(60px, 0px);
+  }
+  .hero {
+    padding: 90px;
+  }
+
+  .hero .call2action .content {
+    max-width: 382px;
+  }
+  
+  .cards-container .card {
+    padding: 75px;
+  }
+
+  .feature .cards-container {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    grid-column-gap: 35px;
+    justify-content: center;
+  }
+
+  .card .section-body {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .footer .footer-1 > div {
+    margin-right: 30px;
+  }
+
+  .footer-1 .label {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    height: 29px;
+  }
+
+  .footer .footer-1 .details p .cont-us {
+    margin-left: 32.91px;
+    margin-right: 31.91px;
+  }
+
+  .cont-num .cont-us {
+    margin-left: 32px;
+  }
+
+  .footer-call2-action .card {
+    width: 655px;
+  }
+
+  /* k-12 page */
+  .k12 .overview .container .hero-vector {
+    position: absolute;
+    right: 0;
+    top: 205px;
+    width: 690px;
+  }  
+  .k12 .bus-circle .schoolbus {
+    width: 660px;
+    margin-left: -123px;
+    margin-top: 117px;
+  }
+  .k12 .schoolbus:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.1) translate(50px, 0px);
+    -webkit-transform: scale(1.1) translate(50px, 0px);
+    transform: scale(1.1) translate(50px, 0px);
+  }
+  .map-itinerary .itnerary-sc .content, .can-edu-k12 .content {
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .event-feature .bus-img .bus-circle {
+    height: 411px;
+    width: 411px;
+  }
+  
+  /* HE page */
+  .he .overview .container .hero-vector {
+    position: absolute;
+    right: 0;
+    top: 205px;
+    width: 690px;
+  }  
+  .he .bus-circle .schoolbus {
+    width: 527px;
+    margin-left: -58px;
+    margin-top: 75px;
+  }
+  .he .schoolbus:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.1) translate(50px, 0px);
+    -webkit-transform: scale(1.1) translate(50px, 0px);
+    transform: scale(1.1) translate(50px, 0px);
+  }
+  .map-itinerary .itnerary-sc .content, .can-edu-he .content {
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  /* Header and Footer */
+  .top-bar-logo {
+    height: 34px;
+    margin: 26px 0;
+  }
+  .footer-logo {
+    height: 29px;
+    margin: 29px 0 35px 0;
+  }
+
+  .more-feature > .container > .more-feature-grid > .more-feature-box > .head {
+    height: 95px;
+  }
+}
