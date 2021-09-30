@@ -5,4 +5,216 @@
   .navbar__brand {
     font: normal normal normal 46px/60px 'Tiempos Headline Bold';
   }
+  .notification {
+    transform: translate(-73px, -180px);
+    width: 1120px;
+    height: 1120px;
+  }
+  .notification__circle1 {
+    width: 694px;
+    height: 694px;
+    padding: 105px 164px 87px 164px;
+    margin-top: -39px;
+  }
+  .notification__title {
+    font: normal normal normal 36px/42px 'Tiempos Headline Bold';
+  }
+  .notification__subtitle {
+    font: normal normal normal 28px/36px 'Proxima Nova';
+  }
+  .notification__time {
+    font: normal normal normal 18px/32px 'Proxima Nova Bold';
+  }
+  .notification__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .btn--red {
+    padding-right: 21px;
+    padding-left: 21px;
+    border-radius: 20px;
+    font: normal normal normal 12px/15px 'Proxima Nova Bold';
+    height: 43px;
+    line-height: 43px;
+  }
+  .notification__circle2 {
+    transform: translate(349px, 30px);
+    width: 515px;
+    height: 515px;
+    padding: 129px 106px;
+  }
+  .notification__dotline {
+    transform: translate(657px, 326px);
+    width: 706px;
+    height: 706px;
+  }
+  .event__title {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+  }
+  .event__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .schedule__time {
+    font: normal normal normal 16px/24px 'Proxima Nova Bold';
+  }
+  .schedule__content {
+    font: normal normal normal 16px/21px 'Proxima Nova';
+  }
+  .main-content {
+    max-width: 1262px;
+    margin: auto;
+  }
+  .title--s {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  .title--l {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+  }
+  .section__content {
+    font: normal normal normal 18px/26px 'Proxima Nova';
+  }
+  .bg-1 {
+    top: -1014px;
+    left: -1040px;
+    width: 3174px;
+    height: 3174px;
+  }
+  .bg-2 {
+    top: -651px;
+    left: -677px;
+    width: 2448px;
+    height: 2448px;
+  }
+  .circle__yellow {
+    top: -61px;
+    right: 139px;
+    width: 148px;
+    height: 148px;
+  }
+  .cloud--upper-right {
+    top: 180px;
+    right: -307px;
+    width: 200px;
+  }
+  .cloud--upper-left {
+    top: 274px;
+    right: -8px;
+    width: 163px;
+  }
+  .circle__orange {
+    top: 245px;
+    right: -140px;
+    width: 247px;
+    height: 247px;
+  }
+  .bus {
+    top: 412px;
+    right: -197px;
+    width: 500px;
+  }
+  .circle__blue {
+    top: 740px;
+    left: 70px;
+    width: 142px;
+    height: 142px;
+  }
+  .cloud--mid-left {
+    top: 961px;
+    left: 183px;
+    width: 228px;
+  }
+  .cloud--mid-right {
+    bottom: -226px;
+    right: -9px;
+    width: 323px;
+  }
+  .cloud--lower-left {
+    bottom: -348.7px;
+    right: -400px;
+    width: 163px;
+  }
+  .cloud--lower-right {
+    bottom: -359px;
+    left: 65px;
+    width: 237px;
+  }
+  .schedules {
+    margin-top: -153px;
+    margin-left: 50px;
+    height: 277px;
+  }
+  .schedule__dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 22px;
+  }
+  .section__ahead__conversation {
+    margin-top: 54px;
+    height: 203px;
+  }
+  .join-conversation {
+    transform: translate(0, -183px);
+    margin-left: 48px;
+  }
+  .conversation__item img {
+    width: 28px;
+  }
+  .conversation__item {
+    margin-bottom: 10px;
+  }
+  .conversation__content {
+    font: normal normal normal 16px/24px 'Proxima Nova Bold';
+  }
+  .message {
+    width: 184px;
+    height: 184px;
+    margin-right: 56px;
+    font: normal normal normal 24px/30px 'Tiempos Headline Bold';
+  }
+  .section__map__itinerary {
+    margin-top: 159px;
+  }
+  .section_itinerary {
+    width: 398px;
+    height: 407px;
+  }
+  .section__dotline {
+    margin-top: 334px;
+  }
+  .section__map {
+    top: 185px;
+    margin-left: -58px;
+  }
+  .section__limited {
+    top: 144px;
+    width: 244px;
+    height: 244px;
+  }
+  .section__limited__text {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+    margin-bottom: 24px;
+  }
+  .section__missionTitle {
+    font: normal normal normal 28px/36px 'Tiempos Headline Bold';
+  }
+  .section__missionContents {
+    max-width: 1029px;
+    padding-top: 180px;
+  }
+  .section__missionSubtitle {
+    font: normal normal normal 24px/32px 'Tiempos Headline Bold';
+    height: 90px;
+  }
+  .section__missionContent {
+    font: normal normal normal 18px/26px 'Proxima Nova';
+  }
+  .section__address {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  a.label {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+  }
+  .section__copyright .main-content {
+    font: normal normal normal 12px/20px 'Proxima Nova Bold';
+  }
 }
