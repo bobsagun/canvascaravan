@@ -1,4 +1,4 @@
-@media (min-width: 1366px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1086px;
   }
@@ -143,8 +143,8 @@
     width: 237px;
   }
   .schedules {
-    margin-top: -194px;
-    margin-left: 46px;
+    margin-top: -205px;
+    margin-left: 104px;
     height: 277px;
   }
   .schedule__dot {
@@ -231,5 +231,13 @@
   }
   .section__copyright .main-content {
     font: normal normal normal 12px/20px 'Proxima Nova Bold';
+  }
+}
+
+@media (min-width: 1366px) {
+  .schedules {
+    margin-top: -194px;
+    margin-left: 46px;
+    height: 277px;
   }
 }
