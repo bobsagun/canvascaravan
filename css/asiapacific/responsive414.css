@@ -1,40 +1,40 @@
-@media (min-width: 1200px) {
+@media (min-width: 414px) {
   .container {
     max-width: 1086px;
-    justify-content: space-between !important;
-  }
-  .navbar {
-    height: 120px;
-  }
-  .navbar__logo {
-    width: 384px;
+    justify-content: center !important;
   }
   .navbar__brand {
-    font: normal normal normal 38px/60px 'Tiempos Headline Bold';
+    font: normal normal normal 20px/28px 'Tiempos Headline Bold';
+  }
+  .navbar {
+    height: 83px;
+  }
+  .navbar__logo {
+    width: 182px;
   }
   .notification {
-    left: 0;
-    transform: translate(-112px, -232px);
-    width: 1120px;
-    height: 1120px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 690px;
+    height: 647px;
   }
   .notification__circle1 {
-    width: 628px;
-    height: 628px;
-    padding: 79px 129px 63px 125px;
-    margin-top: -19px;
+    width: 487px;
+    height: 487px;
+    padding: 66px 56px;
+    margin-top: 0;
   }
   .notification__title {
-    font: normal normal normal 36px/42px 'Tiempos Headline Bold';
+    font: normal normal normal 26px/32px 'Tiempos Headline Bold';
   }
   .notification__subtitle {
-    font: normal normal normal 28px/36px 'Proxima Nova';
+    font: normal normal normal 18px/24px 'Proxima Nova';
   }
   .notification__time {
-    font: normal normal normal 18px/32px 'Proxima Nova Bold';
+    font: normal normal normal 14px/32px 'Proxima Nova Bold';
   }
   .notification__content {
-    font: normal normal normal 16px/21px 'Proxima Nova';
+    font: normal normal normal 12px/18px 'Proxima Nova';
   }
   .btn--red {
     padding-right: 21px;
@@ -98,10 +98,10 @@
     height: 1864px;
   }
   .circle__yellow {
-    top: -61px;
-    right: 139px;
-    width: 148px;
-    height: 148px;
+    top: 19px;
+    right: 0;
+    width: 38px;
+    height: 38px;
   }
   .cloud--upper-right {
     top: 344px;

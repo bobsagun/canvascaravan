@@ -17,17 +17,12 @@ a {
 .navbar {
   z-index: 10;
   background-color: #ffffff;
-  height: 120px;
 }
 
 .navbar__brand {
   text-align: left;
   letter-spacing: 0px;
   color: #444444;
-}
-
-.navbar__logo {
-  width: 384px;
 }
 
 .bg-1 {
