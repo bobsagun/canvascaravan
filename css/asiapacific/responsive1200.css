@@ -51,6 +51,7 @@
   }
   .notification__circle2 {
     transform: translate(201px, 86px);
+    right: 0;
     width: 494px;
     height: 494px;
     padding: 117px 112px;
@@ -59,6 +60,7 @@
     transform: translate(506px, 406px);
     width: 706px;
     height: 706px;
+    right: auto;
   }
   .event__title {
     font: normal normal normal 28px/36px 'Tiempos Headline Bold';
@@ -73,6 +75,7 @@
     font: normal normal normal 16px/21px 'Proxima Nova';
   }
   .main-content {
+    padding: 0;
     max-width: 1086px;
     margin: auto;
   }
@@ -90,12 +93,14 @@
     left: -741px;
     width: 2418px;
     height: 2418px;
+    transform: none;
   }
   .bg-2 {
     top: -484px;
     left: -464px;
     width: 1865px;
     height: 1864px;
+    transform: none;
   }
   .circle__yellow {
     top: -61px;
@@ -123,6 +128,7 @@
     top: 520px;
     right: -97px;
     width: 399px;
+    transform: translate(0, 0);
   }
   .circle__blue {
     top: 793px;
@@ -139,6 +145,7 @@
     bottom: -279px;
     right: 95px;
     width: 323px;
+    left: auto;
   }
   .cloud--lower-left {
     bottom: -348.7px;
@@ -164,10 +171,17 @@
   .section__ahead__conversation {
     margin-top: 61px;
     height: 205px;
+    flex-direction: row;
+  }
+  .section__ahead {
+    width: 528px;
+    height: auto;
   }
   .join-conversation {
     transform: translate(0, -129px);
     margin-left: -68px;
+    flex-direction: row;
+    margin-bottom: 0;
   }
   .conversation__item img {
     width: 28px;
@@ -183,6 +197,7 @@
     height: 184px;
     margin-right: 56px;
     font: normal normal normal 24px/30px 'Tiempos Headline Bold';
+    margin-bottom: 0;
   }
   .section__map__itinerary {
     margin-top: 128px;
@@ -193,14 +208,34 @@
   }
   .section__dotline {
     margin-top: 290px;
+    display: block;
   }
   .locations-list {
     margin-top: 20px;
     margin-bottom: 0;
+    padding-left: 2rem;
+  }
+  .locations-list li {
+    line-height: 30px;
+  }
+  .locations-list li:before {
+    width: 16px;
+    height: 16px;
   }
   .section__map {
     top: 220px;
     margin-left: -80px;
+    overflow: visible;
+    width: auto;
+    position: absolute;
+  }
+  .section__map img {
+    width: 100%;
+    transform: none;
+  }
+
+  .section__curve svg {
+    display: block;
   }
   .section__limited {
     top: 109px;
@@ -211,14 +246,23 @@
     font: normal normal normal 28px/36px 'Tiempos Headline Bold';
     margin-bottom: 24px;
   }
-  .section__mission {
-    width: 290px;
-    padding-bottom: 90px;
+
+  .section__missionWrapper {
+    margin-top: 0;
   }
+
   .section__missionTitle {
     font: normal normal normal 28px/36px 'Tiempos Headline Bold';
     padding-left: 120px;
     padding-right: 20px;
+  }
+  .section__missions {
+    flex-wrap: nowrap;
+    padding-left: 0;
+  }
+  .section__mission {
+    width: 290px;
+    padding-bottom: 90px;
   }
   .section__missionContents {
     max-width: 913px;
@@ -231,8 +275,21 @@
   .section__missionContent {
     font: normal normal normal 18px/26px 'Proxima Nova';
   }
+  .section__aboutus {
+    justify-content: space-between;
+    height: 119px;
+    flex-direction: row;
+  }
+  .section__footer {
+    justify-content: left;
+  }
   .section__address {
     font: normal normal normal 12px/22px 'Proxima Nova Bold';
+    display: block;
+  }
+  .section__address__xs {
+    font: normal normal normal 12px/22px 'Proxima Nova Bold';
+    display: none;
   }
   a.label {
     font: normal normal normal 12px/22px 'Proxima Nova Bold';

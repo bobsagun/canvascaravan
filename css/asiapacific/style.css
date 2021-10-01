@@ -6,6 +6,7 @@ body {
 
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 div,
@@ -120,7 +121,6 @@ a {
 
 .notification__circle2 {
   bottom: 0;
-  right: 0;
   background: white;
   display: flex;
   flex-direction: column;
@@ -190,7 +190,6 @@ a {
   display: flex;
 }
 .section__ahead {
-  width: 528px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -213,13 +212,10 @@ a {
 }
 .locations-list li {
   list-style-type: none;
-  line-height: 30px;
   display: flex;
   align-items: center;
 }
 .locations-list li:before {
-  width: 16px;
-  height: 16px;
   border-radius: 50%;
   background-color: #f68e20;
   content: '';
@@ -291,11 +287,10 @@ a {
 
 .section__aboutus {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 119px;
 }
-.section__address {
+.section__address,
+.section__address__xs {
   letter-spacing: 0.03px;
   color: #767676;
 }
