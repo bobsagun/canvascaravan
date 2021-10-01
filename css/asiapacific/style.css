@@ -87,7 +87,6 @@ a {
   transition: transform 0.5s;
   text-align: center;
   letter-spacing: 0.04px;
-  display: inline-block;
   cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
@@ -416,6 +415,9 @@ a.label {
     font: normal normal normal 18px/22px 'Proxima Nova Bold';
     height: 60px;
     line-height: 60px;
+  }
+  .btn--red::after {
+    margin-bottom: -2px;
   }
   .notification__circle2 {
     transform: translate(436px, 120px);
